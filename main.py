@@ -8,9 +8,9 @@ from requests import Response
 from googl import Googl
 from zoom import Zoom
 
-ZOOM_API_KEY = os.environ.get("ZOOM_API_KEY")
-ZOOM_API_SECRET = os.environ.get("ZOOM_API_SECRET")
-ZOOM_MEETING_ID = os.environ.get("ZOOM_MEETING_ID")
+ZOOM_API_KEY = os.environ.get("TlT_J-FKQsaZBUnq_YNKgg")
+ZOOM_API_SECRET = os.environ.get("hDIHcXLf3XtJkmmbGMP5S8lg6xt2Ug8Lf0Ee")
+ZOOM_MEETING_ID = os.environ.get("4010911736")
 
 SERVICE_ACCOUNT_FILE = f".secrets/{os.listdir('.secrets')[0]}"
 SCOPES = ["https://www.googleapis.com/auth/drive", "https://www.googleapis.com/auth/drive.file"]
